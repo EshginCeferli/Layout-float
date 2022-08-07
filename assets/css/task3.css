@@ -1,0 +1,58 @@
+body {
+  background-color: aqua;
+}
+#header .navs li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: underline;
+  border: 5px solid rgb(16, 16, 104);
+  background-color: yellow;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  padding-left: 20px;
+  font-size: 25px;
+  color: rgb(16, 16, 104);
+}
+#header .navs li:hover {
+  color: green;
+  cursor: pointer;
+  text-decoration: none;
+}
+#main .areas {
+  height: 580px;
+  width: 100%;
+  margin-top: 42px;
+}
+#main .areas .local {
+  float: left;
+  height: 100%;
+  width: 33%;
+  background-color: grey;
+  color: aqua;
+}
+#main .areas .information {
+  float: left;
+  height: 100%;
+  width: 33%;
+  background-color: yellow;
+  color: black;
+}
+#main .areas .statistics {
+  float: left;
+  height: 100%;
+  width: 33%;
+  background-color: rgb(16, 16, 104);
+  color: yellow;
+}
+#main .areas span {
+  font-size: 30px;
+  margin-left: 25px;
+  display: flex;
+}
+
+#footer .copyright p {
+  text-align: center;
+  color: rgb(122, 122, 12);
+  margin-top: 5px;
+}
